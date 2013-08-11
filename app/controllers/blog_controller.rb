@@ -1,5 +1,7 @@
 #encoding: utf-8
 class BlogController < ApplicationController
+    
+    
   def index
     @posts = Post.all  #모든 포스트(글)를 다 긁어옵시다!
   end
